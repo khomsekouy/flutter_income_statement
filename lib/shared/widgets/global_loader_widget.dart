@@ -1,10 +1,12 @@
-import 'package:feature_first_structure/core/constants/app_colors.dart';
-import 'package:feature_first_structure/environment/logic/environment_cubit.dart';
-import 'package:feature_first_structure/environment/model/environment_model.dart';
+
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:loader_overlay/loader_overlay.dart';
 import 'package:loading_indicator/loading_indicator.dart';
+
+import '../../core/constants/app_colors.dart';
+import '../../environment/logic/environment_cubit.dart';
+import '../../environment/model/environment_model.dart';
 
 class GlobalLoaderOverlyWidget extends StatelessWidget {
   const GlobalLoaderOverlyWidget({

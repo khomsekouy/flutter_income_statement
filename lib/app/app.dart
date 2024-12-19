@@ -1,11 +1,12 @@
-import 'package:feature_first_structure/core/theme/app_theme.dart';
-import 'package:feature_first_structure/environment/logic/environment_cubit.dart';
-import 'package:feature_first_structure/environment/model/environment_model.dart';
-import 'package:feature_first_structure/l10n/l10n.dart';
-import 'package:feature_first_structure/shared/widgets/global_loader_widget.dart';
+
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
+import '../core/theme/app_theme.dart';
+import '../environment/logic/environment_cubit.dart';
+import '../environment/model/environment_model.dart';
+import '../l10n/l10n.dart';
+import '../shared/widgets/global_loader_widget.dart';
 import 'router.dart';
 
 class App extends StatelessWidget {

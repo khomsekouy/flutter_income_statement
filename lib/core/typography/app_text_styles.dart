@@ -1,5 +1,5 @@
-import 'package:feature_first_structure/core/typography/app_font_weight.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_income_statement/core/typography/app_font_weight.dart';
 
 /// The app consists of two main text style definitions: UI and Content.
 ///

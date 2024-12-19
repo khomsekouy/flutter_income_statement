@@ -1,6 +1,8 @@
-import 'package:feature_first_structure/app/app.dart';
-import 'package:feature_first_structure/app/bootstrap.dart';
-import 'package:feature_first_structure/environment/model/environment_model.dart';
+
+
+import '../../environment/model/environment_model.dart';
+import '../app.dart';
+import '../bootstrap.dart';
 
 void main() {
   bootstrap(() {

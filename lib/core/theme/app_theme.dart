@@ -1,9 +1,10 @@
-import 'package:feature_first_structure/core/constants/app_colors.dart';
-import 'package:feature_first_structure/core/constants/app_sizing.dart';
-import 'package:feature_first_structure/core/typography/app_font_weight.dart';
-import 'package:feature_first_structure/core/typography/app_text_styles.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+
+import '../constants/app_colors.dart';
+import '../constants/app_sizing.dart';
+import '../typography/app_font_weight.dart';
+import '../typography/app_text_styles.dart';
 
 /// {@template app_theme}
 /// The Default App [ThemeData].
